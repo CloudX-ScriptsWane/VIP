@@ -88,27 +88,3 @@ ButtonCorner.CornerRadius = UDim.new(0, 8)
 ButtonCorner.Parent = FreeScriptButton
 ButtonCorner2.CornerRadius = UDim.new(0, 8)
 ButtonCorner2.Parent = PaidScriptButton
-
-FreeScriptButton.MouseEnter:Connect(function()
-    FreeScriptButton.BackgroundColor3 = Color3.fromRGB(90, 180, 90)
-end)
-
-FreeScriptButton.MouseLeave:Connect(function()
-    FreeScriptButton.BackgroundColor3 = Color3.fromRGB(70, 150, 70)
-end)
-
-PaidScriptButton.MouseEnter:Connect(function()
-    PaidScriptButton.BackgroundColor3 = Color3.fromRGB(200, 120, 60)
-end)
-
-PaidScriptButton.MouseLeave:Connect(function()
-    PaidScriptButton.BackgroundColor3 = Color3.fromRGB(180, 100, 50)
-end)
-
-CloseButton.MouseEnter:Connect(function()
-    CloseButton.BackgroundColor3 = Color3.fromRGB(220, 80, 80)
-end)
-
-CloseButton.MouseLeave:Connect(function()
-    CloseButton.BackgroundColor3 = Color3.fromRGB(200, 60, 60)
-end)
