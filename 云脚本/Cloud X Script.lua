@@ -67,15 +67,15 @@ PaidScriptButton.Size = UDim2.new(0.85, 0, 0, 40)
 PaidScriptButton.Position = UDim2.new(0.075, 0, 0.5, 0)
 PaidScriptButton.BackgroundColor3 = Color3.fromRGB(180, 100, 50)
 PaidScriptButton.Font = Enum.Font.Gotham
-PaidScriptButton.Text = "现付费脚本"
+PaidScriptButton.Text = "现限免脚本"
 PaidScriptButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 PaidScriptButton.TextSize = 18
 PaidScriptButton.Parent = MainFrame
 PaidScriptButton.MouseButton1Click:Connect(function()
-    StatusLabel.Text = "正在加载中...[付费脚本]"
+    StatusLabel.Text = "正在加载中...[限制脚本]"
     loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/Paid.luau", true))()
     StatusLabel.Text = "加载完成！"
-end)
+end) --我得去搞个卡密系统🤔
 StatusLabel.Size = UDim2.new(0.85, 0, 0, 40)
 StatusLabel.Position = UDim2.new(0.075, 0, 0.75, 0)
 StatusLabel.BackgroundTransparency = 1
